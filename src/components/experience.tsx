@@ -11,7 +11,7 @@ import {
   type Role,
 } from "@/data/profile";
 
-const ACCENT = "#5ea8ff";
+const ACCENT = "#03922e";
 
 const subscribeToNothing = () => () => {};
 
