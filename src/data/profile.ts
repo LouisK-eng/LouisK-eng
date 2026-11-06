@@ -32,13 +32,13 @@ export type SkillGroup = {
 export const profile = {
   name: "Louis Karl Lafata",
   nameLines: ["Louis Karl", "Lafata"],
-  headline: "AI/ML | Data Science | Full-Stack Engineer",
+  headline: "AI/ML | Data Science | Full-Stack Engineer | Senior Software Engineer",
   role: "Senior Software & AI Engineer",
   location: "New York City Metropolitan Area",
   contact: {
     linkedin: "https://www.linkedin.com/in/louis-l-2863753/",
     // Leave empty to hide the email button.
-    email: "",
+    email: "louisk.lafata23@gmail.com",
   },
   about: [
     "Senior Software & AI Engineer with over 10 years of experience architecting highly scalable Microservices Architectures and pioneering advanced full-stack development initiatives.",
