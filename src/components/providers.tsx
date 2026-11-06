@@ -3,14 +3,14 @@
 import type { ReactNode } from "react";
 import { ConfigProvider, theme, type ThemeConfig } from "antd";
 
-const INK = "#273244";
-const PANEL = "#334055";
+const INK = "#1f2836";
+const PANEL = "#293344";
 const RAISED = "#3a485e";
-const LINE = "#46556c";
-const LINE_STRONG = "#55657e";
+const LINE = "#354357";
+const LINE_STRONG = "#4b5c77";
 const FG = "#f5f8fc";
 const MUTED = "#c5cfdc";
-const ACCENT = "#5ea8ff";
+const ACCENT = "#2c9701";
 // Dark text on accent fills, for contrast.
 const NAVY = "#0b1220";
 
@@ -18,8 +18,8 @@ const NAVY = "#0b1220";
 // as a fill get these values directly.
 const ACCENT_FILL = {
   colorPrimary: ACCENT,
-  colorPrimaryHover: "#80bbff",
-  colorPrimaryActive: "#3d8ff0",
+  colorPrimaryHover: "#31fd42",
+  colorPrimaryActive: "#107710",
 };
 
 const antdTheme: ThemeConfig = {
