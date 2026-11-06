@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Button, Drawer } from "antd";
-import { LinkedinFilled, MenuOutlined } from "@ant-design/icons";
+import { LinkedinFilled, MenuOutlined, GithubFilled } from "@ant-design/icons";
 import { profile } from "@/data/profile";
 
 const LINKS = [
@@ -130,6 +130,18 @@ export function Nav() {
             icon={<LinkedinFilled />}
           >
             LinkedIn
+          </Button>
+          <Button
+            className="mt-8"
+            type="primary"
+            shape="round"
+            size="large"
+            href={profile.contact.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            icon={<GithubFilled />}
+          >
+            Github
           </Button>
         </nav>
       </Drawer>

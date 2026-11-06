@@ -1,11 +1,11 @@
 "use client";
 
 import { Button } from "antd";
-import { LinkedinFilled, MailOutlined } from "@ant-design/icons";
+import { LinkedinFilled, MailOutlined, GithubOutlined } from "@ant-design/icons";
 import { profile } from "@/data/profile";
 
 export function Contact() {
-  const { linkedin, email } = profile.contact;
+  const { linkedin, email, github } = profile.contact;
 
   return (
     <footer id="contact">
@@ -49,6 +49,16 @@ export function Contact() {
                 icon={<MailOutlined />}
               >
                 {email}
+              </Button>
+            )}
+            {github && (
+              <Button
+                shape="round"
+                size="large"
+                href={`mailto:${github}`}
+                icon={<GithubOutlined />}
+              >
+                {github}
               </Button>
             )}
           </div>
