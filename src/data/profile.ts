@@ -39,6 +39,7 @@ export const profile = {
     linkedin: "https://www.linkedin.com/in/louis-l-2863753/",
     // Leave empty to hide the email button.
     email: "louisk.lafata23@gmail.com",
+    github: "https://github.com/LouisK-eng"
   },
   about: [
     "Senior Software & AI Engineer with over 10 years of experience architecting highly scalable Microservices Architectures and pioneering advanced full-stack development initiatives.",
